@@ -6,7 +6,7 @@
 #    By: tberthie <tberthie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/20 22:18:00 by tberthie          #+#    #+#              #
-#    Updated: 2017/11/06 13:55:13 by tberthie         ###   ########.fr        #
+#    Updated: 2017/11/06 15:44:15 by tberthie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ Sully:
 	gcc -o Sully Sully.c -Weverything
 
 clean:
+	rm -f Grace_kid.c
 
 fclean: clean
 	rm -f $(NAMES)
